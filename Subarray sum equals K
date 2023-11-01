@@ -1,0 +1,36 @@
+Output Format
+Print the total number of subarrays with the given sum K.
+
+EXAMPLE 1
+Input:
+
+3
+1 1 1
+2
+Output::
+
+2
+EXPLANATION:
+
+subarray [1, 1] and [1, 1] have sum 2
+
+EXAMPLE 2
+Input:
+
+3
+1 2 3
+3
+Output::
+
+2
+EXPLANATION:
+
+subarray [1, 2] and [3] have sum 3
+
+CONSTRAINTS:
+
+1 <= nums.length <= 208
+
+-1000 <= nums[i] <= 1000
+
+-107 <= k <= 107
